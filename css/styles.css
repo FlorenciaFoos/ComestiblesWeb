@@ -1,0 +1,140 @@
+
+@font-face{
+    font-family: cursiva;
+    src:url(tipos/Parisienne-Regular.ttf)
+}
+
+@font-face{
+    font-family: condensada;
+    src:url(tipos/AsapCondensed-Regular.ttf)
+}
+
+
+body{
+    color: black;
+    background-color: #fff4d4;
+}
+ 
+
+.colorcomplementario{
+    background-color: #f3b70f;
+    color: black!important;
+}
+
+a{
+    color: black!important;
+}
+
+ 
+.margen{
+    margin-bottom: 12%;
+}
+
+.margennav{
+    margin-bottom: 9%;
+}
+
+.margenabajo{
+    margin-bottom: 14%;
+}
+
+.nosotros{
+    font-family: condensada, sans-serif;
+   
+    font-size: 1.2em;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+h2{
+    font-family: cursiva, Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    margin-bottom: 5%;
+}
+
+label, .tipo, .footer, button, table,.list-group, span{
+    font-family: condensada, sans-serif;
+    
+
+}
+
+ 
+ 
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus{
+    background-color:  #f3b70f!important;
+    border: #f3b70f!important;
+}
+
+.btn-primary{
+    border: #f3b70f!important;
+}
+
+.thumbnail{
+    width: 100%;
+}
+
+.abretabla{
+    margin-left: 2%;
+    margin-top: 2%;
+
+}
+
+.filasproductos{
+    margin-bottom: 6%;
+}
+
+
+.centered {
+    margin: 0 auto;
+    max-width: 724px;
+    margin-bottom:11% ;
+  } 
+
+
+   
+  .imgs{
+
+    margin-top: 1em;
+
+  }
+
+  .footer {
+    position: relative;
+    width: 100%;
+    color: white;
+    text-align: center;
+ }
+
+ 
+ @media only screen and (max-width: 600px) {
+    .nosotros{
+        font-size: 1em;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    #nosotros{
+        margin-left: 5%;
+    }
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    iframe{
+        width: 22em;
+    }
+  }
+
+  @media only screen and (max-width: 1048px) {
+    iframe{
+        width: 29em;
+    }
+  }
+
+  @media only screen and (max-width: 975px) {
+    iframe{
+        width: 29em;
+    }
+  }
