@@ -116,7 +116,7 @@ label, .tipo, .footer, button, table,.list-group, span{
 
   @media only screen and (max-width: 500px) {
     iframe{
-        width: 27em;
+        width: 25em;
     }
   }
 
