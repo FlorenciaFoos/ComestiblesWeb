@@ -1,4 +1,10 @@
 
+:root {
+    --yellow: #f3b70f;
+    --black: #000;
+ 
+  }
+
 @font-face{
     font-family: cursiva;
     src:url(tipos/Parisienne-Regular.ttf)
@@ -17,7 +23,7 @@ body{
  
 
 .colorcomplementario{
-    background-color: #f3b70f;
+    background-color: var(--yellow);
     color: black!important;
 }
 
@@ -26,21 +32,9 @@ a{
 }
 
  
-.margen{
-    margin-bottom: 12%;
-}
-
-.margennav{
-    margin-bottom: 9%;
-}
-
-.margenabajo{
-    margin-bottom: 14%;
-}
 
 .nosotros{
     font-family: condensada, sans-serif;
-   
     font-size: 1.2em;
     margin-left: 8%;
     margin-right: 8%;
@@ -52,7 +46,7 @@ h2{
     margin-bottom: 5%;
 }
 
-label, .tipo, .footer, button, table,.list-group, span{
+label, .tipografia-nav,  footer, button, table,.list-group, span{
     font-family: condensada, sans-serif;
     
 
@@ -61,72 +55,20 @@ label, .tipo, .footer, button, table,.list-group, span{
  
  
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus{
-    background-color:  #f3b70f!important;
-    border: #f3b70f!important;
+    background-color: var(--yellow)!important;
+    border:var(--yellow)!important;
 }
 
 .btn-primary{
-    border: #f3b70f!important;
+    border:var(--yellow)!important;
 }
 
 .thumbnail{
     width: 100%;
 }
 
-.abretabla{
-    margin-left: 2%;
-    margin-top: 2%;
-
-}
-
-.filasproductos{
-    margin-bottom: 6%;
-}
 
 
-.centered {
-    margin: 0 auto;
-    max-width: 724px;
-    margin-bottom:11% ;
-  } 
-
-
-   
-  .imgs{
-
-    margin-top: 1em;
-
-  }
-
-  .footer {
-    position: relative;
-    width: 100%;
-    color: white;
-    text-align: center;
- }
-
- 
-
-  @media only screen and (max-width: 600px) {
-    #nosotros{
-        margin-left: 5%;
-    }
-  }
-
-
-  @media only screen and (max-width: 500px) {
-    iframe{
-        width: 25em;
-    }
-  }
-
-@media only screen and (max-width: 400px)
-iframe {
-    width: 20em;
-}
-
-  @media only screen and (min-width: 501px) {
-    iframe{
-        width: 32em;
-    }
+iframe{
+    width: 100%
   }
